@@ -28,7 +28,7 @@ public class NicCage
 }
 ```
 
-So our convention for public fields is to start with a lower case letter, and camel case the rest.
+So our convention for public fields is to start with a lower case letter, and camel case the rest. What the Unity Editor will do is convert `firstName` to `First Name` in the menu, so camel casing is extremely important or it would say `Firstname`.
 
 #Private fields
 
