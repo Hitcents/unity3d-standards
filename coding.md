@@ -142,3 +142,14 @@ If left off, it defaults to `internal`, and defaults to `private` if it is a nes
 
 Your C# code should *not* have warnings. If you are not using a variable, *DELETE IT*! I will be setting the build server to fail on warnings, so we can all make fun of you if your code has them.
 
+#God classes
+
+Do not make ridiculously long classes. If a class is longer than 500 lines, consider breaking its functionality into multiple classes. I don't want to see another `GameDataManager` like we had in Draw a Stickman: EPIC.
+
+#Be SOLID
+
+Learn the [SOLID design principles](http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29). Most importantly S and D:
+
+* S - Single Responsibility Principal - each class should have a single "responsiblity" or purpose. A Player class would handle logic for the Player, but not handle saving your game, for example.
+* D - Dependencies - depend upon abstractions, not concretions. Anything that must be flexible across platforms should use a base/abstract class or interface. Examples of this are a file system service, in-app purchasing, etc.
+
