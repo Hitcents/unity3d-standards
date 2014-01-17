@@ -140,6 +140,53 @@ public class NicCage
 
 If left off, it defaults to `internal`, and defaults to `private` if it is a nested class. We might not want that if we want to use the class in another project. If the class is actually `internal` or `private` use the keyword, also.
 
+#Member ordering
+
+A class should not look like this:
+
+```C#
+public class NicCage
+{
+	public Vector3 Point1 = Vector3.zero;
+	public Vector3 Point2 = Vector3.zero;
+	public float Thickness = 1f;
+	public float ScaleMod = .95f;
+	Vector3 offset;
+	public float OffsetMod = .01f;
+
+	Vector3 lastP1;
+	Vector3 lastP2;
+
+	GameObject texture;
+	bool decay = false;
+	public bool DecayTrigger=false;
+	float decayDrop = 1f;
+}
+```
+
+Group public static, private static, public, private, and method declarations together. Do not mix and match like a crazy fool.
+
+It should look like this:
+
+```C#
+public class NicCage
+{
+	public Vector3 Point1 = Vector3.zero;
+	public Vector3 Point2 = Vector3.zero;
+	public float Thickness = 1f;
+	public float ScaleMod = .95f;
+	public float OffsetMod = .01f;
+	public bool DecayTrigger = false;
+
+	Vector3 offset;
+	Vector3 lastP1;
+	Vector3 lastP2;
+	GameObject texture;
+	bool decay = false;
+	float decayDrop = 1f;
+}
+```
+
 #Compiler warnings
 
 Your C# code should *not* have warnings. If you are not using a variable, *DELETE IT*! I will be setting the build server to fail on warnings, so we can all make fun of you if your code has them.
