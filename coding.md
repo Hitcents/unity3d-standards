@@ -70,3 +70,7 @@ public class NicCage
 }
 ```
 
+#Compiler Warnings
+
+Your C# code should *not* have warnings. If you are not using a variable, delete it! I will be setting the build server to fail on warnings, so we can all make fun of you if your code has them.
+
