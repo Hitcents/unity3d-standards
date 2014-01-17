@@ -54,6 +54,10 @@ public class NickCage : MonoBehaviour
 
 If you can make Unity generate files like this by default, I will give you a cookie.
 
+#Empty methods
+
+Delete empty methods that are not conforming to a base class or interface. If it is a Unity method like `Start` or `Update` it will actually slow the game down if you do not remove them. If I see them, I will make fun of you.
+
 #Commented code
 
 If it is a quick hack you are going to fix later, it is OK to *temporarily* comment out code. If there is commented code that you are not sure what it does, or has been there a while, *DELETE IT*! We have source control, there is no reason to commit commented code long term.
