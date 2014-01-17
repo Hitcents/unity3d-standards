@@ -39,6 +39,7 @@ As in the above example, there is a stupid default comment made by Unity. If the
 
 Comments above methods should always use C# summaries, type three /// to generate them in VS:
 
+```C#
 public class NickCage : MonoBehaviour
 {
   ///<summary>
@@ -49,6 +50,7 @@ public class NickCage : MonoBehaviour
     //Code here
   }
 }
+```
 
 #Public fields
 
