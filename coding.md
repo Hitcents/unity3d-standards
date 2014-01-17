@@ -35,7 +35,7 @@ public class NickCage : MonoBehaviour
 
 #Comments
 
-As in the above example, there is a stupid default comment made by Unity. If the comment is nonsense, delete it!
+As in the above example, there is a stupid default comment made by Unity. If the comment is nonsense, *DELETE IT*!
 
 Comments above methods should always use C# summaries, type three /// to generate them in VS:
 
@@ -53,6 +53,10 @@ public class NickCage : MonoBehaviour
 ```
 
 If you can make Unity generate files like this by default, I will give you a cookie.
+
+#Commented code
+
+If it is a quick hack you are going to fix later, it is OK to *temporarily* comment out code. If there is commented code that you are not sure what it does, or has been there a while, *DELETE IT*! We have source control, there is no reason to commit commented code long term.
 
 #Public fields
 
@@ -128,5 +132,5 @@ If left off, it defaults to `internal`, and defaults to `private` if it is a nes
 
 #Compiler warnings
 
-Your C# code should *not* have warnings. If you are not using a variable, delete it! I will be setting the build server to fail on warnings, so we can all make fun of you if your code has them.
+Your C# code should *not* have warnings. If you are not using a variable, *DELETE IT*! I will be setting the build server to fail on warnings, so we can all make fun of you if your code has them.
 
