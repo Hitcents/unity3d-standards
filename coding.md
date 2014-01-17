@@ -4,6 +4,52 @@ Unity3d's APIs have some stange naming conventions. So we will have to modify ou
 
 Everyone *must* follow these, I will make fun of you or slap you depending on the situation.
 
+#Formatting
+
+First and foremost, use Visual Studio always. If on a Mac, we will need to configure MonoDevelop to emulate Visual Studio settings.
+
+By default Unity make a new script look like this:
+
+```C#
+public class NicCage : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+	  //Code here
+	}
+}
+```
+
+Our formatting style is Microsoft's. Your first step in a file like this is to delete the end curly brace and retype it, so it formats the class like this:
+
+```C#
+public class NickCage : MonoBehaviour
+{
+  // Use this for initialization
+  void Start()
+  {
+    //Code here
+  }
+}
+```
+
+#Comments
+
+As in the above example, there is a stupid default comment made by Unity. If the comment is nonsense, delete it!
+
+Comments above methods should always use C# summaries, type three /// to generate them in VS:
+
+public class NickCage : MonoBehaviour
+{
+  ///<summary>
+  /// This is where I would put a meaningful comment about Nic Cage starting up.
+  ///</summary>
+  void Start()
+  {
+    //Code here
+  }
+}
+
 #Public fields
 
 The main difference is the. Microsoft (or we) would name a public field like this:
