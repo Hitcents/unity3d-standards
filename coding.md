@@ -109,6 +109,10 @@ public class NicCage
 }
 ```
 
+#Class names
+
+Don't name a class `StickmanBehavior` or `StickmanController`. Just name it `Stickman`.
+
 #Class visibility
 
 Always put the `public` keyword:
