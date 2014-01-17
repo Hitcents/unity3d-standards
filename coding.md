@@ -116,7 +116,7 @@ These don't change from Microsoft/our conventions. They should look like this:
 ```C#
 public class NicCage
 {
-  public void PunchSomeGuyInTheFace()
+  public void SlapTheGuyNotFollowingCodingStandards()
   {
     //Punch time
   }
