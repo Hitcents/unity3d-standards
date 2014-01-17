@@ -33,7 +33,7 @@ public class NickCage : MonoBehaviour
 }
 ```
 
-Also make sure your spaces are formatted appropriately. = and == should have spaces around them. The curly brace trick will fix these, too.
+Also make sure your spaces are formatted appropriately. = and == should have spaces around them. The curly brace trick will fix these, too. You can also hit Ctrl+F, Ctrl+D in Visual Studio if you can remember that hotkey.
 
 #Comments
 
