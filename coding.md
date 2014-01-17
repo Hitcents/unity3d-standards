@@ -121,9 +121,11 @@ public class NicCage
 }
 ```
 
-#Class names
+#Names
 
 Don't name a class `StickmanBehavior` or `StickmanController`. Just name it `Stickman`.
+
+Don't abbreviate a field, method, or class name. A variable shouldn't be named `lastP` *ever*. It should be named `lastPosition`.
 
 #Class visibility
 
