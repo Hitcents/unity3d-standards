@@ -61,7 +61,7 @@ public class NicCage
 
 #Class visibility
 
-Always put `public`:
+Always put the `public` keyword:
 
 ```C#
 public class NicCage
@@ -69,6 +69,8 @@ public class NicCage
   //Members here
 }
 ```
+
+If left off, it defaults to `internal`, and defaults to `private` if it is a nested class. We might not want that if we want to use the class in another project. If the class is actually `internal` or `private` use the keyword, also.
 
 #Compiler Warnings
 
