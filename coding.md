@@ -56,6 +56,8 @@ public class NickCage : MonoBehaviour
 
 If you can make Unity generate files like this by default, I will give you a cookie.
 
+*UPDATE* - a cookie has been earned! Take a look at the [files](https://github.com/Hitcents/unity3d-standards/tree/master/files) subfolder in this repo.
+
 #Empty methods
 
 Delete empty methods that are not conforming to a base class or interface. If it is a Unity method like `Start` or `Update` it will actually slow the game down if you do not remove them. If I see them, I will make fun of you.
