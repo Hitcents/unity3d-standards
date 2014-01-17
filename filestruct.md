@@ -13,7 +13,8 @@ Assets /
   Prefabs
   Scenes
   Sounds
-  Scripts
+  Scripts /
+    * More folders here for organization *
 ```
   
 Additional folders may be in here depending on the project, such as `NGUI`.
