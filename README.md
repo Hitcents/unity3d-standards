@@ -1,7 +1,5 @@
-unity3d-standards
+Unity3D Standards at Hitcents
 =================
-
-Set of Unity3D standards at Hitcents
 
 ##Index
 - [C# Coding Standards](https://github.com/Hitcents/unity3d-standards/blob/master/coding.md)
