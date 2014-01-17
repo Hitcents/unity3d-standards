@@ -58,6 +58,10 @@ If you can make Unity generate files like this by default, I will give you a coo
 
 If it is a quick hack you are going to fix later, it is OK to *temporarily* comment out code. If there is commented code that you are not sure what it does, or has been there a while, *DELETE IT*! We have source control, there is no reason to commit commented code long term.
 
+#Classes and files
+
+1 class per file! The only exception would be a file named `Enumerations.cs` or `Structs.cs` that contain many small enums or structs.
+
 #Public fields
 
 The main difference is for Unity's naming is public fields. Microsoft (or we) would name a public field like this:
