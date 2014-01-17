@@ -126,7 +126,7 @@ public class NicCage
 
 If left off, it defaults to `internal`, and defaults to `private` if it is a nested class. We might not want that if we want to use the class in another project. If the class is actually `internal` or `private` use the keyword, also.
 
-#Compiler Warnings
+#Compiler warnings
 
 Your C# code should *not* have warnings. If you are not using a variable, delete it! I will be setting the build server to fail on warnings, so we can all make fun of you if your code has them.
 
