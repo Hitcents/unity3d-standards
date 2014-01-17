@@ -52,9 +52,11 @@ public class NickCage : MonoBehaviour
 }
 ```
 
+If you can make Unity generate files like this by default, I will give you a cookie.
+
 #Public fields
 
-The main difference is the. Microsoft (or we) would name a public field like this:
+The main difference is for Unity's naming is public fields. Microsoft (or we) would name a public field like this:
 
 ```C#
 public class NicCage
@@ -76,7 +78,7 @@ public class NicCage
 }
 ```
 
-So our convention for public fields is to start with a lower case letter, and camel case the rest. What the Unity Editor will do is convert `firstName` to `First Name` in the menu, so camel casing is extremely important or it would say `Firstname`.
+So our convention for public fields is to start with a lower case letter, and camel case the rest. What the Unity Editor will do is convert `firstName` to `First Name` in the menu, so camel casing is extremely important or it would say `Firstname`. I will slap you if I see menus named this way.
 
 #Private fields
 
