@@ -33,6 +33,8 @@ public class NickCage : MonoBehaviour
 }
 ```
 
+Also make sure your spaces are formatted appropriately. = and == should have spaces around them. The curly brace trick will fix these, too.
+
 #Comments
 
 As in the above example, there is a stupid default comment made by Unity. If the comment is nonsense, *DELETE IT*!
