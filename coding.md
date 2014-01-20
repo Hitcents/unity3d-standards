@@ -206,3 +206,9 @@ Learn the [SOLID design principles](http://en.wikipedia.org/wiki/SOLID_%28object
 * S - Single Responsibility Principal - each class should have a single "responsiblity" or purpose. A Player class would handle logic for the Player, but not handle saving your game, for example.
 * D - Dependencies - depend upon abstractions, not concretions. Anything that must be flexible across platforms should use a base/abstract class or interface. Examples of this are a file system service, in-app purchasing, etc.
 
+#Line endings
+
+Every file should have Windows-style line endings. You shouldn't get warnings in Visual Studio about line endings.
+
+(We can evaluate this rule on the Mac later on)
+
