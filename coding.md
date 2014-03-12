@@ -54,9 +54,16 @@ public class NickCage : MonoBehaviour
 }
 ```
 
-If you can make Unity generate files like this by default, I will give you a cookie.
+Note that summaries are *required* in the following cases:
 
-*UPDATE* - a cookie has been earned! Take a look at the [files](https://github.com/Hitcents/unity3d-standards/tree/master/files) subfolder in this repo.
+* On every single class definition
+* On public methods you expect to be called by other classes
+* On methods in base classes you expect to extend later on
+* On something that is potentially confusing
+
+Remember these are helpful for other developers returning to the code later on, which might even be you! If a game is successful expect to be making changes to it for a long time.
+
+Take a look at the [files](https://github.com/Hitcents/unity3d-standards/tree/master/files) subfolder in this repo to setup your default template for new scripts.
 
 #Empty methods
 
