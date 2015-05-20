@@ -4,13 +4,5 @@ using System.Collections;
 
 public class #SCRIPTNAME# : MonoBehaviour 
 {
-    void Start() 
-    {
-        
-    }
 
-    void Update()
-    {
-        
-    }
 }
